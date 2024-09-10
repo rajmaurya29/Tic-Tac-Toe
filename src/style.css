@@ -48,19 +48,32 @@ body {
   .win {
     font-size: 40px;
     font-family: cursive;
+    text-align: center;
     background: linear-gradient(to bottom, rgb(144, 54, 149), rgb(13, 21, 19), rgb(105, 0, 251));
     -webkit-background-clip: text; 
     color: transparent; 
   }
   
+  .headingtic{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
   .mainheading {
     background: linear-gradient(to bottom, rgb(28, 70, 36), rgb(22, 49, 41), rgb(147, 4, 4));
     -webkit-background-clip: text; 
     color: transparent; 
     font-size: 80px;
+    text-align: center;
     margin-bottom: 10px;
     font-family: cursive;
     margin-top: 10px;
+  }
+  @media(max-width:600px){
+    .mainheading{
+      font-size:51px;
+    }
   }
   
   .containerouter {
