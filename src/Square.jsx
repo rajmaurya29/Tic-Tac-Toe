@@ -9,7 +9,7 @@ function Square(props){
         if(props.value=="X")
         b="black";
         else{
-        b="white";
+        b="black";
         }
     }
     if(clr==null){

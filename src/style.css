@@ -27,7 +27,9 @@ body {
     border: transparent;
     border-radius: 13px;
     font-size: 50px;
+    background-color: maroon;
     background-color: #D0F0C0;
+    
     font-weight: 600;
     transition: all 0.4s ease;
     /* color: #D0F0C0; */
